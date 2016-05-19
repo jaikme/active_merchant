@@ -56,9 +56,8 @@ module ActiveMerchant #:nodoc:
       }
 
       def initialize(options = {})
-        requires!(options, :login, :password)
-
-        options[:partner] = partner if options[:partner].blank?
+        requires!(options, :merchant_key)
+        @merchant_key = options[:merchant_key]
         super
       end
 

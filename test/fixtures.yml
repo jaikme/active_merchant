@@ -487,6 +487,10 @@ money_movers:
   password: password
 
 # Working credentials, no need to replace
+mundipagg:
+  merchant_key: '85328786-8BA6-420F-9948-5352F5A183EB'
+
+# Working credentials, no need to replace
 nab_transact:
   login: ABC0001
   password: changeit
